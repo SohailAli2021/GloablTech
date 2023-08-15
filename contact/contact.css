@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/26/18/33/background-3352677_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 90%; /* Increase the form width */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease; /* Add animation */
+}
+
+.contact-form:hover {
+    transform: scale(1.02); /* Enlarge the form on hover */
+}
+
+.field {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #00b300; /* Green color for labels */
+}
+
+.field input {
+    width: 97%;
+    padding: 10px;
+    border: 1px soid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.field input:focus {
+    border-color: #00b300;
+}
+
+#button {
+    display: inline-block;
+    background-color: #00b300;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#button:hover {
+    background-color: #009100;
+}
+
+ h1:hover{
+    color: #00b300;
+}
